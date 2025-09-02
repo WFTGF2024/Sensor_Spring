@@ -1,0 +1,427 @@
+[2025-09-02 17:39:39.148] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 17:39:39.176] INFO  in c.example.sensor_spring.Application: Starting Application using Java 17.0.16 with PID 7780 (D:\Code\Capstone\Sensor_Spring\build\classes\java\main started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 17:39:39.177] INFO  in c.example.sensor_spring.Application: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 17:39:39.794] INFO  in o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 5000 (http)
+[2025-09-02 17:39:39.801] INFO  in o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-5000"]
+[2025-09-02 17:39:39.801] INFO  in o.a.catalina.core.StandardService: Starting service [Tomcat]
+[2025-09-02 17:39:39.802] INFO  in o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.25]
+[2025-09-02 17:39:39.834] INFO  in o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+[2025-09-02 17:39:39.834] INFO  in o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 625 ms
+[2025-09-02 17:39:40.139] INFO  in o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-5000"]
+[2025-09-02 17:39:40.149] INFO  in o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 5000 (http) with context path '/'
+[2025-09-02 17:39:40.155] INFO  in c.example.sensor_spring.Application: Started Application in 1.369 seconds (process running for 1.742)
+[2025-09-02 18:28:20.510] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 18:28:20.533] INFO  in c.e.s.DatabaseConnectivityTest: Starting DatabaseConnectivityTest using Java 17.0.16 with PID 23900 (started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 18:28:20.534] INFO  in c.e.s.DatabaseConnectivityTest: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 18:28:22.003] INFO  in c.e.s.DatabaseConnectivityTest: Started DatabaseConnectivityTest in 1.728 seconds (process running for 2.615)
+[2025-09-02 18:28:22.852] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 18:29:40.088] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 18:29:40.111] INFO  in c.e.s.DatabaseConnectivityTest: Starting DatabaseConnectivityTest using Java 17.0.16 with PID 9576 (started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 18:29:40.112] INFO  in c.e.s.DatabaseConnectivityTest: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 18:29:41.358] INFO  in c.e.s.DatabaseConnectivityTest: Started DatabaseConnectivityTest in 1.522 seconds (process running for 2.41)
+[2025-09-02 18:29:42.005] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 18:29:42.142] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24f90aff
+[2025-09-02 18:29:42.145] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 18:29:42.207] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 18:29:42.210] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[2025-09-02 18:42:45.462] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 18:42:45.505] INFO  in c.e.sensor_spring.AuthControllerTest: Starting AuthControllerTest using Java 17.0.16 with PID 24044 (started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 18:42:45.506] INFO  in c.e.sensor_spring.AuthControllerTest: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 18:42:46.719] INFO  in o.s.b.t.m.w.SpringBootMockServletContext: Initializing Spring TestDispatcherServlet ''
+[2025-09-02 18:42:46.719] INFO  in o.s.t.w.s.TestDispatcherServlet: Initializing Servlet ''
+[2025-09-02 18:42:46.720] INFO  in o.s.t.w.s.TestDispatcherServlet: Completed initialization in 1 ms
+[2025-09-02 18:42:46.756] INFO  in c.e.sensor_spring.AuthControllerTest: Started AuthControllerTest in 1.537 seconds (process running for 2.444)
+[2025-09-02 18:42:47.493] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 127.0.0.1 POST /auth/register
+[2025-09-02 18:42:47.549] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 18:42:47.677] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52a75c12
+[2025-09-02 18:42:47.679] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 18:42:47.872] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 127.0.0.1 POST /auth/register -> 200
+[2025-09-02 18:42:47.928] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 18:42:47.971] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[2025-09-02 18:44:03.468] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 18:44:03.505] INFO  in c.e.sensor_spring.AuthControllerTest: Starting AuthControllerTest using Java 17.0.16 with PID 22100 (started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 18:44:03.506] INFO  in c.e.sensor_spring.AuthControllerTest: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 18:44:04.705] INFO  in o.s.b.t.m.w.SpringBootMockServletContext: Initializing Spring TestDispatcherServlet ''
+[2025-09-02 18:44:04.706] INFO  in o.s.t.w.s.TestDispatcherServlet: Initializing Servlet ''
+[2025-09-02 18:44:04.708] INFO  in o.s.t.w.s.TestDispatcherServlet: Completed initialization in 2 ms
+[2025-09-02 18:44:04.733] INFO  in c.e.sensor_spring.AuthControllerTest: Started AuthControllerTest in 1.534 seconds (process running for 2.43)
+[2025-09-02 18:44:05.399] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 127.0.0.1 POST /auth/register
+[2025-09-02 18:44:05.452] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 18:44:05.560] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37e64e37
+[2025-09-02 18:44:05.561] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 18:44:05.719] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 127.0.0.1 POST /auth/register -> 200
+[2025-09-02 18:44:05.767] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 18:44:05.809] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[2025-09-02 18:55:20.326] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 18:55:20.359] INFO  in c.e.sensor_spring.AuthControllerTest: Starting AuthControllerTest using Java 17.0.16 with PID 26512 (started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 18:55:20.360] INFO  in c.e.sensor_spring.AuthControllerTest: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 18:55:21.540] INFO  in o.s.b.t.m.w.SpringBootMockServletContext: Initializing Spring TestDispatcherServlet ''
+[2025-09-02 18:55:21.540] INFO  in o.s.t.w.s.TestDispatcherServlet: Initializing Servlet ''
+[2025-09-02 18:55:21.541] INFO  in o.s.t.w.s.TestDispatcherServlet: Completed initialization in 1 ms
+[2025-09-02 18:55:21.569] INFO  in c.e.sensor_spring.AuthControllerTest: Started AuthControllerTest in 1.487 seconds (process running for 2.379)
+[2025-09-02 18:55:22.272] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 127.0.0.1 POST /auth/register
+[2025-09-02 18:55:22.340] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 18:55:22.471] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@400008bf
+[2025-09-02 18:55:22.472] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 18:55:22.640] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 127.0.0.1 POST /auth/register -> 200
+[2025-09-02 18:55:22.696] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 18:55:22.723] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[2025-09-02 18:55:41.518] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 18:55:41.551] INFO  in c.e.sensor_spring.AuthControllerTest: Starting AuthControllerTest using Java 17.0.16 with PID 25960 (started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 18:55:41.552] INFO  in c.e.sensor_spring.AuthControllerTest: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 18:55:42.805] INFO  in o.s.b.t.m.w.SpringBootMockServletContext: Initializing Spring TestDispatcherServlet ''
+[2025-09-02 18:55:42.806] INFO  in o.s.t.w.s.TestDispatcherServlet: Initializing Servlet ''
+[2025-09-02 18:55:42.807] INFO  in o.s.t.w.s.TestDispatcherServlet: Completed initialization in 1 ms
+[2025-09-02 18:55:42.834] INFO  in c.e.sensor_spring.AuthControllerTest: Started AuthControllerTest in 1.584 seconds (process running for 2.486)
+[2025-09-02 18:55:43.557] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 127.0.0.1 POST /auth/register
+[2025-09-02 18:55:43.604] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 18:55:43.727] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72b1df49
+[2025-09-02 18:55:43.729] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 18:55:43.892] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 127.0.0.1 POST /auth/register -> 200
+[2025-09-02 18:55:43.935] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 18:55:43.980] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[2025-09-02 18:58:19.186] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 18:58:19.208] INFO  in c.e.s.DatabaseConnectivityTest: Starting DatabaseConnectivityTest using Java 17.0.16 with PID 332 (started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 18:58:19.210] INFO  in c.e.s.DatabaseConnectivityTest: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 18:58:20.428] INFO  in c.e.s.DatabaseConnectivityTest: Started DatabaseConnectivityTest in 1.506 seconds (process running for 2.513)
+[2025-09-02 18:58:21.095] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 18:58:21.228] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3aca2579
+[2025-09-02 18:58:21.230] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 18:58:21.290] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 18:58:21.299] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[2025-09-02 18:59:51.055] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 18:59:51.077] INFO  in c.e.s.DatabaseConnectivityTest: Starting DatabaseConnectivityTest using Java 17.0.16 with PID 23432 (started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 18:59:51.078] INFO  in c.e.s.DatabaseConnectivityTest: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 18:59:52.352] INFO  in c.e.s.DatabaseConnectivityTest: Started DatabaseConnectivityTest in 1.558 seconds (process running for 2.423)
+[2025-09-02 18:59:53.054] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 18:59:53.190] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57bd9c2b
+[2025-09-02 18:59:53.192] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 18:59:53.251] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 18:59:53.253] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[2025-09-02 19:00:02.707] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 19:00:02.743] INFO  in c.e.sensor_spring.AuthControllerTest: Starting AuthControllerTest using Java 17.0.16 with PID 25180 (started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 19:00:02.744] INFO  in c.e.sensor_spring.AuthControllerTest: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 19:00:03.926] INFO  in o.s.b.t.m.w.SpringBootMockServletContext: Initializing Spring TestDispatcherServlet ''
+[2025-09-02 19:00:03.926] INFO  in o.s.t.w.s.TestDispatcherServlet: Initializing Servlet ''
+[2025-09-02 19:00:03.927] INFO  in o.s.t.w.s.TestDispatcherServlet: Completed initialization in 1 ms
+[2025-09-02 19:00:03.953] INFO  in c.e.sensor_spring.AuthControllerTest: Started AuthControllerTest in 1.503 seconds (process running for 2.417)
+[2025-09-02 19:00:04.639] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 127.0.0.1 POST /auth/register
+[2025-09-02 19:00:04.694] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 19:00:04.798] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33373f70
+[2025-09-02 19:00:04.799] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 19:00:04.953] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 127.0.0.1 POST /auth/register -> 200
+[2025-09-02 19:00:05.006] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 19:00:05.044] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[2025-09-02 19:01:01.072] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 19:01:01.105] INFO  in c.e.sensor_spring.AuthControllerTest: Starting AuthControllerTest using Java 17.0.16 with PID 24928 (started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 19:01:01.106] INFO  in c.e.sensor_spring.AuthControllerTest: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 19:01:02.236] INFO  in o.s.b.t.m.w.SpringBootMockServletContext: Initializing Spring TestDispatcherServlet ''
+[2025-09-02 19:01:02.237] INFO  in o.s.t.w.s.TestDispatcherServlet: Initializing Servlet ''
+[2025-09-02 19:01:02.238] INFO  in o.s.t.w.s.TestDispatcherServlet: Completed initialization in 1 ms
+[2025-09-02 19:01:02.264] INFO  in c.e.sensor_spring.AuthControllerTest: Started AuthControllerTest in 1.451 seconds (process running for 2.333)
+[2025-09-02 19:01:02.926] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 127.0.0.1 POST /auth/register
+[2025-09-02 19:01:02.975] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 19:01:03.120] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@560d6d2
+[2025-09-02 19:01:03.122] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 19:01:03.175] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 127.0.0.1 POST /auth/register -> 200
+[2025-09-02 19:01:03.218] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 19:01:03.221] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[2025-09-02 20:14:42.707] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 20:14:42.737] INFO  in c.e.sensor_spring.AuthControllerTest: Starting AuthControllerTest using Java 17.0.16 with PID 26420 (started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 20:14:42.738] INFO  in c.e.sensor_spring.AuthControllerTest: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 20:14:44.009] INFO  in o.s.b.t.m.w.SpringBootMockServletContext: Initializing Spring TestDispatcherServlet ''
+[2025-09-02 20:14:44.009] INFO  in o.s.t.w.s.TestDispatcherServlet: Initializing Servlet ''
+[2025-09-02 20:14:44.010] INFO  in o.s.t.w.s.TestDispatcherServlet: Completed initialization in 1 ms
+[2025-09-02 20:14:44.039] INFO  in c.e.sensor_spring.AuthControllerTest: Started AuthControllerTest in 1.62 seconds (process running for 2.582)
+[2025-09-02 20:14:44.805] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 127.0.0.1 POST /auth/register
+[2025-09-02 20:14:44.866] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 20:14:44.986] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56f61d74
+[2025-09-02 20:14:44.988] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 20:14:45.156] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 127.0.0.1 POST /auth/register -> 200
+[2025-09-02 20:14:45.199] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 20:14:45.231] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[2025-09-02 20:31:48.942] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 20:31:48.984] INFO  in c.e.sensor_spring.UserControllerTest: Starting UserControllerTest using Java 17.0.16 with PID 25144 (started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 20:31:48.985] INFO  in c.e.sensor_spring.UserControllerTest: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 20:31:50.140] INFO  in o.s.b.t.m.w.SpringBootMockServletContext: Initializing Spring TestDispatcherServlet ''
+[2025-09-02 20:31:50.140] INFO  in o.s.t.w.s.TestDispatcherServlet: Initializing Servlet ''
+[2025-09-02 20:31:50.142] INFO  in o.s.t.w.s.TestDispatcherServlet: Completed initialization in 2 ms
+[2025-09-02 20:31:50.167] INFO  in c.e.sensor_spring.UserControllerTest: Started UserControllerTest in 1.474 seconds (process running for 2.413)
+[2025-09-02 20:31:50.818] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 127.0.0.1 GET /users
+[2025-09-02 20:31:50.840] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 20:31:50.960] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@103478b8
+[2025-09-02 20:31:50.962] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 20:31:51.004] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 127.0.0.1 GET /users -> 200
+[2025-09-02 20:31:51.029] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 20:31:51.038] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[2025-09-02 20:32:07.885] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 20:32:07.908] INFO  in c.e.s.DatabaseConnectivityTest: Starting DatabaseConnectivityTest using Java 17.0.16 with PID 8520 (started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 20:32:07.909] INFO  in c.e.s.DatabaseConnectivityTest: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 20:32:09.167] INFO  in c.e.s.DatabaseConnectivityTest: Started DatabaseConnectivityTest in 1.52 seconds (process running for 2.421)
+[2025-09-02 20:32:09.798] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 20:32:09.930] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e482ecd
+[2025-09-02 20:32:09.931] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 20:32:09.990] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 20:32:09.996] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[2025-09-02 20:32:23.871] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 20:32:23.913] INFO  in c.e.s.DownloadControllerTest: Starting DownloadControllerTest using Java 17.0.16 with PID 25012 (started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 20:32:23.915] INFO  in c.e.s.DownloadControllerTest: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 20:32:25.098] INFO  in o.s.b.t.m.w.SpringBootMockServletContext: Initializing Spring TestDispatcherServlet ''
+[2025-09-02 20:32:25.098] INFO  in o.s.t.w.s.TestDispatcherServlet: Initializing Servlet ''
+[2025-09-02 20:32:25.099] INFO  in o.s.t.w.s.TestDispatcherServlet: Completed initialization in 0 ms
+[2025-09-02 20:32:25.126] INFO  in c.e.s.DownloadControllerTest: Started DownloadControllerTest in 1.512 seconds (process running for 2.406)
+[2025-09-02 20:32:25.791] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 127.0.0.1 POST /download/upload
+[2025-09-02 20:32:25.826] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 20:32:25.957] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fefc5ea
+[2025-09-02 20:32:25.960] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 20:32:25.999] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 127.0.0.1 POST /download/upload -> 200
+[2025-09-02 20:32:26.048] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 20:32:26.057] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[2025-09-02 20:35:16.050] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 20:35:16.080] INFO  in c.example.sensor_spring.Application: Starting Application using Java 17.0.16 with PID 6968 (D:\Code\Capstone\Sensor_Spring\build\classes\java\main started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 20:35:16.081] INFO  in c.example.sensor_spring.Application: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 20:35:16.741] INFO  in o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 5000 (http)
+[2025-09-02 20:35:16.747] INFO  in o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-5000"]
+[2025-09-02 20:35:16.748] INFO  in o.a.catalina.core.StandardService: Starting service [Tomcat]
+[2025-09-02 20:35:16.748] INFO  in o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.25]
+[2025-09-02 20:35:16.789] INFO  in o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+[2025-09-02 20:35:16.789] INFO  in o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 674 ms
+[2025-09-02 20:35:17.114] INFO  in o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-5000"]
+[2025-09-02 20:35:17.127] INFO  in o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 5000 (http) with context path '/'
+[2025-09-02 20:35:17.132] INFO  in c.example.sensor_spring.Application: Started Application in 1.439 seconds (process running for 1.79)
+[2025-09-02 20:35:32.074] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 20:35:32.103] INFO  in c.example.sensor_spring.Application: Starting Application using Java 17.0.16 with PID 21892 (D:\Code\Capstone\Sensor_Spring\build\classes\java\main started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 20:35:32.104] INFO  in c.example.sensor_spring.Application: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 20:35:32.924] INFO  in o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 5000 (http)
+[2025-09-02 20:35:32.930] INFO  in o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-5000"]
+[2025-09-02 20:35:32.931] INFO  in o.a.catalina.core.StandardService: Starting service [Tomcat]
+[2025-09-02 20:35:32.931] INFO  in o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.25]
+[2025-09-02 20:35:32.965] INFO  in o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+[2025-09-02 20:35:32.965] INFO  in o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 830 ms
+[2025-09-02 20:35:33.425] INFO  in o.s.b.a.e.web.EndpointLinksResolver: Exposing 1 endpoint beneath base path '/actuator'
+[2025-09-02 20:35:33.453] INFO  in o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-5000"]
+[2025-09-02 20:35:33.470] INFO  in o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 5000 (http) with context path '/'
+[2025-09-02 20:35:33.480] INFO  in c.example.sensor_spring.Application: Started Application in 1.725 seconds (process running for 2.094)
+[2025-09-02 20:35:33.667] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 20:35:33.673] INFO  in o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-09-02 20:35:33.673] INFO  in o.s.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+[2025-09-02 20:35:33.674] INFO  in o.s.web.servlet.DispatcherServlet: Completed initialization in 1 ms
+[2025-09-02 20:35:33.762] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@188ed6b5
+[2025-09-02 20:35:33.764] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 20:35:48.580] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 POST /auth/register
+[2025-09-02 20:35:49.149] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 POST /auth/register -> 201
+[2025-09-02 20:36:13.222] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 POST /auth/login
+[2025-09-02 20:36:13.730] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 POST /auth/login -> 200
+[2025-09-02 20:36:19.161] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 GET /auth/user
+[2025-09-02 20:36:19.164] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 GET /auth/user -> 200
+[2025-09-02 20:36:24.644] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 PATCH /auth/user
+[2025-09-02 20:36:24.649] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 PATCH /auth/user -> 200
+[2025-09-02 20:36:29.685] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 POST /auth/delete_account
+[2025-09-02 20:36:30.180] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 POST /auth/delete_account -> 200
+[2025-09-02 20:39:54.985] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 POST /auth/register
+[2025-09-02 20:39:55.468] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 POST /auth/register -> 201
+[2025-09-02 20:40:07.392] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 POST /auth/login
+[2025-09-02 20:40:07.877] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 POST /auth/login -> 200
+[2025-09-02 20:42:52.297] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 POST /download/upload
+[2025-09-02 20:42:52.340] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 POST /download/upload -> 200
+[2025-09-02 20:44:45.208] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 20:44:45.214] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[2025-09-02 20:46:51.079] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 20:46:51.116] INFO  in c.example.sensor_spring.Application: Starting Application using Java 17.0.16 with PID 5900 (D:\Code\Capstone\Sensor_Spring\build\classes\java\main started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 20:46:51.117] INFO  in c.example.sensor_spring.Application: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 20:46:51.926] INFO  in o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 5000 (http)
+[2025-09-02 20:46:51.934] INFO  in o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-5000"]
+[2025-09-02 20:46:51.935] INFO  in o.a.catalina.core.StandardService: Starting service [Tomcat]
+[2025-09-02 20:46:51.935] INFO  in o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.25]
+[2025-09-02 20:46:51.973] INFO  in o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+[2025-09-02 20:46:51.973] INFO  in o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 821 ms
+[2025-09-02 20:46:52.479] INFO  in o.s.b.a.e.web.EndpointLinksResolver: Exposing 1 endpoint beneath base path '/actuator'
+[2025-09-02 20:46:52.514] INFO  in o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-5000"]
+[2025-09-02 20:46:52.526] INFO  in o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 5000 (http) with context path '/'
+[2025-09-02 20:46:52.538] INFO  in c.example.sensor_spring.Application: Started Application in 1.816 seconds (process running for 2.234)
+[2025-09-02 20:46:53.025] INFO  in o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-09-02 20:46:53.025] INFO  in o.s.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+[2025-09-02 20:46:53.027] INFO  in o.s.web.servlet.DispatcherServlet: Completed initialization in 1 ms
+[2025-09-02 20:46:53.045] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 20:46:53.138] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37f9a34f
+[2025-09-02 20:46:53.144] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 20:46:55.479] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 POST /download/upload
+[2025-09-02 20:46:55.553] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 POST /download/upload -> 200
+[2025-09-02 20:47:07.900] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 POST /auth/login
+[2025-09-02 20:47:08.412] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 POST /auth/login -> 200
+[2025-09-02 20:47:58.852] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 20:47:58.858] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[2025-09-02 20:51:31.493] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 20:51:31.526] INFO  in c.example.sensor_spring.Application: Starting Application using Java 17.0.16 with PID 27476 (D:\Code\Capstone\Sensor_Spring\build\classes\java\main started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 20:51:31.527] INFO  in c.example.sensor_spring.Application: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 20:51:32.278] INFO  in o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 5000 (http)
+[2025-09-02 20:51:32.288] INFO  in o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-5000"]
+[2025-09-02 20:51:32.289] INFO  in o.a.catalina.core.StandardService: Starting service [Tomcat]
+[2025-09-02 20:51:32.290] INFO  in o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.25]
+[2025-09-02 20:51:32.321] INFO  in o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+[2025-09-02 20:51:32.321] INFO  in o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 756 ms
+[2025-09-02 20:51:32.792] INFO  in o.s.b.a.e.web.EndpointLinksResolver: Exposing 1 endpoint beneath base path '/actuator'
+[2025-09-02 20:51:32.827] INFO  in o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-5000"]
+[2025-09-02 20:51:32.840] INFO  in o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 5000 (http) with context path '/'
+[2025-09-02 20:51:32.852] INFO  in c.example.sensor_spring.Application: Started Application in 1.698 seconds (process running for 2.063)
+[2025-09-02 20:51:32.993] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 20:51:33.013] INFO  in o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-09-02 20:51:33.014] INFO  in o.s.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+[2025-09-02 20:51:33.015] INFO  in o.s.web.servlet.DispatcherServlet: Completed initialization in 1 ms
+[2025-09-02 20:51:33.110] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c87a04e
+[2025-09-02 20:51:33.115] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 20:51:36.929] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 POST /auth/delete_account
+[2025-09-02 20:51:36.993] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 POST /auth/delete_account -> 401
+[2025-09-02 20:51:55.449] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 20:51:55.456] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[2025-09-02 20:52:07.991] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 20:52:08.020] INFO  in c.example.sensor_spring.Application: Starting Application using Java 17.0.16 with PID 24872 (D:\Code\Capstone\Sensor_Spring\build\classes\java\main started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 20:52:08.021] INFO  in c.example.sensor_spring.Application: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 20:52:08.777] INFO  in o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 5000 (http)
+[2025-09-02 20:52:08.784] INFO  in o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-5000"]
+[2025-09-02 20:52:08.785] INFO  in o.a.catalina.core.StandardService: Starting service [Tomcat]
+[2025-09-02 20:52:08.785] INFO  in o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.25]
+[2025-09-02 20:52:08.822] INFO  in o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+[2025-09-02 20:52:08.822] INFO  in o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 771 ms
+[2025-09-02 20:52:09.278] INFO  in o.s.b.a.e.web.EndpointLinksResolver: Exposing 1 endpoint beneath base path '/actuator'
+[2025-09-02 20:52:09.308] INFO  in o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-5000"]
+[2025-09-02 20:52:09.320] INFO  in o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 5000 (http) with context path '/'
+[2025-09-02 20:52:09.332] INFO  in c.example.sensor_spring.Application: Started Application in 1.699 seconds (process running for 2.08)
+[2025-09-02 20:52:09.431] INFO  in o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-09-02 20:52:09.432] INFO  in o.s.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+[2025-09-02 20:52:09.432] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 20:52:09.433] INFO  in o.s.web.servlet.DispatcherServlet: Completed initialization in 1 ms
+[2025-09-02 20:52:09.546] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60e62a16
+[2025-09-02 20:52:09.548] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 20:52:19.606] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 POST /auth/delete_account
+[2025-09-02 20:52:19.668] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 POST /auth/delete_account -> 401
+[2025-09-02 20:52:28.009] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 20:52:28.014] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[2025-09-02 20:55:54.840] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 20:55:54.870] INFO  in c.example.sensor_spring.Application: Starting Application using Java 17.0.16 with PID 27404 (D:\Code\Capstone\Sensor_Spring\build\classes\java\main started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 20:55:54.870] INFO  in c.example.sensor_spring.Application: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 20:55:55.643] INFO  in o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 5000 (http)
+[2025-09-02 20:55:55.649] INFO  in o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-5000"]
+[2025-09-02 20:55:55.650] INFO  in o.a.catalina.core.StandardService: Starting service [Tomcat]
+[2025-09-02 20:55:55.650] INFO  in o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.25]
+[2025-09-02 20:55:55.683] INFO  in o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+[2025-09-02 20:55:55.684] INFO  in o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 781 ms
+[2025-09-02 20:55:56.143] INFO  in o.s.b.a.e.web.EndpointLinksResolver: Exposing 1 endpoint beneath base path '/actuator'
+[2025-09-02 20:55:56.177] INFO  in o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-5000"]
+[2025-09-02 20:55:56.190] INFO  in o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 5000 (http) with context path '/'
+[2025-09-02 20:55:56.201] INFO  in c.example.sensor_spring.Application: Started Application in 1.724 seconds (process running for 2.097)
+[2025-09-02 20:55:56.331] INFO  in o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-09-02 20:55:56.331] INFO  in o.s.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+[2025-09-02 20:55:56.333] INFO  in o.s.web.servlet.DispatcherServlet: Completed initialization in 2 ms
+[2025-09-02 20:55:56.344] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 20:55:56.455] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4949baf5
+[2025-09-02 20:55:56.458] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 20:55:58.580] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 POST /auth/login
+[2025-09-02 20:55:59.158] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 POST /auth/login -> 200
+[2025-09-02 20:56:47.224] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 POST /download/upload
+[2025-09-02 20:56:47.252] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 POST /download/upload -> 200
+[2025-09-02 20:57:10.207] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 POST /download/upload
+[2025-09-02 20:57:10.221] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 POST /download/upload -> 200
+[2025-09-02 21:02:24.192] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 POST /download/upload
+[2025-09-02 21:02:24.202] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 POST /download/upload -> 200
+[2025-09-02 21:02:29.967] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 GET /download/download/3
+[2025-09-02 21:02:29.970] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 GET /download/download/3 -> 404
+[2025-09-02 21:03:04.257] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 GET /download/files
+[2025-09-02 21:03:04.263] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 GET /download/files -> 200
+[2025-09-02 21:03:20.756] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 DELETE /download/file/4
+[2025-09-02 21:03:20.762] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 DELETE /download/file/4 -> 200
+[2025-09-02 21:07:56.018] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 POST /download/upload
+[2025-09-02 21:07:56.034] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 POST /download/upload -> 200
+[2025-09-02 21:08:00.574] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 GET /download/files
+[2025-09-02 21:08:00.576] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 GET /download/files -> 200
+[2025-09-02 21:08:06.273] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 GET /download/download/4
+[2025-09-02 21:08:06.275] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 GET /download/download/4 -> 404
+[2025-09-02 21:08:09.555] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 PUT /download/file/4
+[2025-09-02 21:08:09.559] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 PUT /download/file/4 -> 200
+[2025-09-02 21:08:42.263] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 PUT /download/file/5
+[2025-09-02 21:08:42.271] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 PUT /download/file/5 -> 200
+[2025-09-02 21:08:56.501] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 DELETE /download/file/5
+[2025-09-02 21:08:56.507] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 DELETE /download/file/5 -> 200
+[2025-09-02 21:32:04.104] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 POST /auth/register
+[2025-09-02 21:32:04.616] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 POST /auth/register -> 201
+[2025-09-02 21:32:27.682] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 POST /auth/login
+[2025-09-02 21:32:28.167] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 POST /auth/login -> 200
+[2025-09-02 21:32:47.132] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 GET /auth/user
+[2025-09-02 21:32:47.135] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 GET /auth/user -> 200
+[2025-09-02 21:33:42.549] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 21:33:42.552] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[2025-09-02 21:33:46.355] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 21:33:46.386] INFO  in c.example.sensor_spring.Application: Starting Application using Java 17.0.16 with PID 25832 (D:\Code\Capstone\Sensor_Spring\build\classes\java\main started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 21:33:46.387] INFO  in c.example.sensor_spring.Application: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 21:33:47.228] INFO  in o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 5000 (http)
+[2025-09-02 21:33:47.235] INFO  in o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-5000"]
+[2025-09-02 21:33:47.236] INFO  in o.a.catalina.core.StandardService: Starting service [Tomcat]
+[2025-09-02 21:33:47.236] INFO  in o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.25]
+[2025-09-02 21:33:47.271] INFO  in o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+[2025-09-02 21:33:47.272] INFO  in o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 851 ms
+[2025-09-02 21:33:47.799] INFO  in o.s.b.a.e.web.EndpointLinksResolver: Exposing 1 endpoint beneath base path '/actuator'
+[2025-09-02 21:33:47.836] INFO  in o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-5000"]
+[2025-09-02 21:33:47.849] INFO  in o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 5000 (http) with context path '/'
+[2025-09-02 21:33:47.860] INFO  in c.example.sensor_spring.Application: Started Application in 1.891 seconds (process running for 2.293)
+[2025-09-02 21:33:48.257] INFO  in o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-09-02 21:33:48.257] INFO  in o.s.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+[2025-09-02 21:33:48.258] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 21:33:48.258] INFO  in o.s.web.servlet.DispatcherServlet: Completed initialization in 1 ms
+[2025-09-02 21:33:48.358] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@186c8212
+[2025-09-02 21:33:48.370] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 21:34:18.453] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 PATCH /auth/user
+[2025-09-02 21:34:18.519] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 PATCH /auth/user -> 401
+[2025-09-02 21:34:28.639] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 GET /auth/user
+[2025-09-02 21:34:28.641] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 GET /auth/user -> 401
+[2025-09-02 21:34:36.975] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 POST /auth/login
+[2025-09-02 21:34:37.480] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 POST /auth/login -> 200
+[2025-09-02 21:34:50.879] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 POST /auth/register
+[2025-09-02 21:34:50.883] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 POST /auth/register -> 409
+[2025-09-02 21:35:15.838] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 PATCH /auth/user
+[2025-09-02 21:35:15.843] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 PATCH /auth/user -> 200
+[2025-09-02 21:35:42.777] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: -> 0:0:0:0:0:0:0:1 POST /auth/delete_account
+[2025-09-02 21:35:43.257] INFO  in c.e.s.c.RequestLoggingAndRateLimitFilter: <- 0:0:0:0:0:0:0:1 POST /auth/delete_account -> 200
+[2025-09-02 21:35:49.215] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 21:35:49.222] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[2025-09-02 21:36:46.916] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 21:36:46.950] INFO  in c.example.sensor_spring.Application: Starting Application using Java 17.0.16 with PID 8372 (D:\Code\Capstone\Sensor_Spring\build\classes\java\main started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 21:36:46.952] INFO  in c.example.sensor_spring.Application: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 21:36:47.764] INFO  in o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 5000 (http)
+[2025-09-02 21:36:47.771] INFO  in o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-5000"]
+[2025-09-02 21:36:47.772] INFO  in o.a.catalina.core.StandardService: Starting service [Tomcat]
+[2025-09-02 21:36:47.773] INFO  in o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.25]
+[2025-09-02 21:36:47.804] INFO  in o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+[2025-09-02 21:36:47.805] INFO  in o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 818 ms
+[2025-09-02 21:36:48.277] INFO  in o.s.b.a.e.web.EndpointLinksResolver: Exposing 1 endpoint beneath base path '/actuator'
+[2025-09-02 21:36:48.307] INFO  in o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-5000"]
+[2025-09-02 21:36:48.319] INFO  in o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 5000 (http) with context path '/'
+[2025-09-02 21:36:48.329] INFO  in c.example.sensor_spring.Application: Started Application in 1.784 seconds (process running for 2.141)
+[2025-09-02 21:36:48.916] INFO  in o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-09-02 21:36:48.917] INFO  in o.s.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+[2025-09-02 21:36:48.917] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 21:36:48.918] INFO  in o.s.web.servlet.DispatcherServlet: Completed initialization in 1 ms
+[2025-09-02 21:36:49.024] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42e3ffab
+[2025-09-02 21:36:49.027] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 21:36:54.653] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 21:36:54.659] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+[2025-09-02 21:37:05.204] INFO  in o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+[2025-09-02 21:37:05.235] INFO  in c.example.sensor_spring.Application: Starting Application using Java 17.0.16 with PID 21920 (D:\Code\Capstone\Sensor_Spring\build\classes\java\main started by 19638 in D:\Code\Capstone\Sensor_Spring)
+[2025-09-02 21:37:05.236] INFO  in c.example.sensor_spring.Application: No active profile set, falling back to 1 default profile: "default"
+[2025-09-02 21:37:06.033] INFO  in o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 5000 (http)
+[2025-09-02 21:37:06.040] INFO  in o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-5000"]
+[2025-09-02 21:37:06.041] INFO  in o.a.catalina.core.StandardService: Starting service [Tomcat]
+[2025-09-02 21:37:06.041] INFO  in o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.25]
+[2025-09-02 21:37:06.078] INFO  in o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+[2025-09-02 21:37:06.078] INFO  in o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 807 ms
+[2025-09-02 21:37:06.588] INFO  in o.s.b.a.e.web.EndpointLinksResolver: Exposing 1 endpoint beneath base path '/actuator'
+[2025-09-02 21:37:06.620] INFO  in o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-5000"]
+[2025-09-02 21:37:06.633] INFO  in o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 5000 (http) with context path '/'
+[2025-09-02 21:37:06.645] INFO  in c.example.sensor_spring.Application: Started Application in 1.808 seconds (process running for 2.325)
+[2025-09-02 21:37:07.081] INFO  in o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-09-02 21:37:07.081] INFO  in o.s.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+[2025-09-02 21:37:07.082] INFO  in o.s.web.servlet.DispatcherServlet: Completed initialization in 1 ms
+[2025-09-02 21:37:07.083] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+[2025-09-02 21:37:07.188] INFO  in com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7512cbb5
+[2025-09-02 21:37:07.199] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+[2025-09-02 21:37:11.091] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+[2025-09-02 21:37:11.099] INFO  in com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.

@@ -1,0 +1,69 @@
+CREATE TABLE IF NOT EXISTS users (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  username VARCHAR(64) NOT NULL,
+  email VARCHAR(128) NOT NULL,
+  phone VARCHAR(32) NULL,
+  password_hash VARCHAR(255) NOT NULL,
+  role VARCHAR(16) NOT NULL DEFAULT 'USER',
+  qq VARCHAR(32) NULL,
+  wechat VARCHAR(64) NULL,
+  point INT NOT NULL DEFAULT 0,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  UNIQUE KEY uq_users_username (username),
+  UNIQUE KEY uq_users_email (email),
+  UNIQUE KEY uq_users_phone (phone)
+);
+
+CREATE TABLE IF NOT EXISTS file_blobs (
+  hash CHAR(64) PRIMARY KEY,
+  size BIGINT NOT NULL,
+  storage_path VARCHAR(512) NOT NULL,
+  ref_count BIGINT NOT NULL DEFAULT 0,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS file_assets (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  owner_id BIGINT NOT NULL,
+  blob_hash CHAR(64) NOT NULL,
+  file_name VARCHAR(255) NOT NULL,
+  description TEXT NULL,
+  permission VARCHAR(16) NOT NULL DEFAULT 'PRIVATE',
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  CONSTRAINT fk_file_assets_user FOREIGN KEY (owner_id) REFERENCES users(id) ON DELETE CASCADE,
+  CONSTRAINT fk_file_assets_blob FOREIGN KEY (blob_hash) REFERENCES file_blobs(hash) ON DELETE RESTRICT,
+  INDEX idx_file_assets_owner (owner_id),
+  INDEX idx_file_assets_updated (updated_at)
+);
+
+CREATE TABLE IF NOT EXISTS upload_sessions (
+  upload_id CHAR(36) PRIMARY KEY,
+  owner_id BIGINT NOT NULL,
+  file_name VARCHAR(255) NOT NULL,
+  total_size BIGINT NOT NULL,
+  total_chunks INT NOT NULL,
+  received_chunks INT NOT NULL DEFAULT 0,
+  temp_dir VARCHAR(512) NOT NULL,
+  status VARCHAR(16) NOT NULL DEFAULT 'IN_PROGRESS',
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  expires_at TIMESTAMP NULL,
+  CONSTRAINT fk_upload_sessions_user FOREIGN KEY (owner_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS audit_logs (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  user_id BIGINT NULL,
+  action VARCHAR(64) NOT NULL,
+  target_type VARCHAR(64) NULL,
+  target_id VARCHAR(64) NULL,
+  ip VARCHAR(64) NULL,
+  user_agent VARCHAR(255) NULL,
+  request_id VARCHAR(64) NULL,
+  method VARCHAR(8) NULL,
+  path VARCHAR(255) NULL,
+  status INT NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_audit_user_time (user_id, created_at)
+);

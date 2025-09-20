@@ -1,0 +1,71 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: sensor-spring-ha-mq
+
+  datasource:
+    url: jdbc:mysql://localhost:3307/modality?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&characterEncoding=utf8
+    username: sensor
+    password: Sensor#Passw0rd!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    open-in-view: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+        jdbc:
+          time_zone: UTC
+
+  data:
+    redis:
+      host: localhost
+      port: 6380
+
+  rabbitmq:
+    host: localhost
+    port: 5673
+    username: guest
+    password: guest
+
+  servlet:
+    multipart:
+      max-file-size: 2GB
+      max-request-size: 2GB
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus,metrics,loggers,threaddump,env
+  endpoint:
+    health:
+      probes:
+        enabled: true
+  metrics:
+    tags:
+      application: ${spring.application.name}
+
+logging:
+  file:
+    name: logs/app.log
+  level:
+    root: INFO
+    org.springframework.security: INFO
+    com.example.sensorspring: INFO
+
+app:
+  upload-root: ./uploads
+  rate-limit:
+    window-seconds: 10
+    max-requests: 300
+
+jwt:
+  secret: f3a9f6b14cde58c743c21de86a7f292e8e1c443249d83b17e2c0cb129f55a6b0d8e2f4413a93b8b66d6bbf5e8f3843da2a9df8e04b17c63cf3872a510bc1b45e
+  access-ttl-minutes: 15
+  refresh-ttl-days: 7

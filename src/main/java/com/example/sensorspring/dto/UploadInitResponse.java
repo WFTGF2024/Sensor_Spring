@@ -1,0 +1,2 @@
+package com.example.sensorspring.dto;
+public class UploadInitResponse { private String uploadId; private String tempDir; public UploadInitResponse() {} public UploadInitResponse(String u,String t){this.uploadId=u;this.tempDir=t;} public String getUploadId(){return uploadId;} public void setUploadId(String u){this.uploadId=u;} public String getTempDir(){return tempDir;} public void setTempDir(String t){this.tempDir=t;} }

@@ -28,7 +28,7 @@ services:
       - redis_data:/data
 
   rabbitmq:
-    image: rabbitmq:3.13-management
+    image: rabbitmq:4.2.4
     container_name: sensor_spring_rabbitmq
     restart: unless-stopped
     environment:

@@ -16,8 +16,8 @@ public class UserController {
 
     @GetMapping("/me")
     public ResponseEntity<User> me(){
-        String username = SecurityContextHolder.getContext().getAuthentication().getName();
-        return ResponseEntity.ok(users.findByUsername(username).orElseThrow());
+        User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        return ResponseEntity.ok(users.findById(user.getId()).orElseThrow());
     }
 
     @GetMapping @PreAuthorize("hasRole('ADMIN')")

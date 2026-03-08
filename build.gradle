@@ -22,12 +22,17 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter-amqp'
 
-    implementation 'io.micrometer:micrometer-registry-prometheus'
+    implementation 'io.prometheus:prometheus-metrics-exposition-formats'
+
     implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 
     implementation 'commons-io:commons-io:2.15.1'
+    
+    // OSHI for system monitoring
+    implementation 'com.github.oshi:oshi-core:6.4.0'
 
     runtimeOnly 'com.mysql:mysql-connector-j:8.3.0'
+
 
     // JWT
     implementation 'io.jsonwebtoken:jjwt-api:0.11.5'

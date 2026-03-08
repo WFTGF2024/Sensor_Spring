@@ -36,7 +36,7 @@ public class JwtService {
         return Jwts.builder()
                 .setId(jti)
                 .setSubject(String.valueOf(userId))
-                .setClaims(claims)
+                .addClaims(claims)
                 .setIssuedAt(Date.from(now))
                 .setExpiration(Date.from(now.plusMillis(accessTtlMillis)))
                 .signWith(key, SignatureAlgorithm.HS512)

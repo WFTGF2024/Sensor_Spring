@@ -9,7 +9,7 @@ spring:
     url: jdbc:mysql://localhost:3307/modality?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&characterEncoding=utf8
     username: sensor
     password: Sensor#Passw0rd!
-    driver-class-name: com.mysql.cj.jdbc.Driver
+
 
   jpa:
     hibernate:
@@ -50,14 +50,16 @@ management:
   metrics:
     tags:
       application: ${spring.application.name}
-
-logging:
   file:
     name: logs/app.log
   level:
     root: INFO
     org.springframework.security: INFO
     com.example.sensorspring: INFO
+  prometheus:
+    metrics:
+      export:
+        enabled: false
 
 app:
   upload-root: ./uploads
@@ -69,3 +71,4 @@ jwt:
   secret: f3a9f6b14cde58c743c21de86a7f292e8e1c443249d83b17e2c0cb129f55a6b0d8e2f4413a93b8b66d6bbf5e8f3843da2a9df8e04b17c63cf3872a510bc1b45e
   access-ttl-minutes: 15
   refresh-ttl-days: 7
+
